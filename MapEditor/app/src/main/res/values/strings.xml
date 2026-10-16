@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MapEditor</string>
+
+    <!-- Start Menu Buttons -->
+    <string name="btn_edit_map">Edit Map</string>
+    <string name="btn_select_map">Select Map</string>
+    <string name="btn_import_map">Import Map (ZIP)</string>
+    <string name="btn_import_txt">Import Map (TXT)</string>
+    <string name="btn_delete_map">Delete Map</string>
+    <string name="btn_scale_map">Scale Provinces</string>
+    <string name="btn_export_map">Export Map</string>
+
+    <!-- Start Menu Toasts -->
+    <string name="toast_select_map_first">Please select a map first</string>
+    <string name="toast_no_maps_found">No maps found. Import one first.</string>
+    <string name="toast_selected_map">Selected map: %s</string>
+    <string name="toast_no_maps_to_delete">No maps to delete.</string>
+    <string name="toast_deleted_map">Deleted map: %s</string>
+    <string name="toast_failed_delete_map">Failed to delete map: %s</string>
+    <string name="toast_select_zip">Please select a .zip file</string>
+    <string name="toast_extracted_zip">Extracted ZIP to \"%s\"</string>
+    <string name="toast_failed_extract_zip">Failed to extract ZIP: %s</string>
+    <string name="toast_select_txt">Please select a .txt file with province points</string>
+    <string name="toast_imported_txt">Imported map \"%s\" from TXT</string>
+    <string name="toast_failed_import_txt">Failed to import TXT map: %s</string>
+    <string name="dialog_title_importing_txt">Importing TXT map…</string>
+
+    <!-- Start Menu Dialogs -->
+    <string name="dialog_title_select_map">Select Map</string>
+    <string name="dialog_title_delete_map">Delete Map</string>
+    <string name="dialog_title_confirm_delete">Confirm Deletion</string>
+    <string name="dialog_msg_confirm_delete">Are you sure you want to delete %s?</string>
+    <string name="dialog_title_importing">Importing Map…</string>
+    <string name="dialog_title_scale_original">Original Size</string>
+    <string name="dialog_title_scale_new">New Background Size</string>
+    <string name="dialog_title_scaling">Scaling Provinces…</string>
+    <string name="dialog_label_width">Width (px):</string>
+    <string name="dialog_label_height">Height (px):</string>
+    <string name="toast_scale_invalid_size">Enter positive width and height</string>
+    <string name="toast_scale_failed">Scaling failed: %s</string>
+    <string name="toast_scale_done">Scaled %1$d file(s), skipped %2$d</string>
+    <string name="toast_scale_warning">Note: %s</string>
+
+    <!-- Generic Buttons -->
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_go">Go</string>
+
+    <!-- Main Activity -->
+    <string name="toast_cannot_open_file_picker">Cannot open file picker</string>
+
+    <!-- Toolbar Labels (GamePanel) -->
+    <string name="tool_add_prov">+Prov</string>
+    <string name="tool_remove_prov">-Prov</string>
+    <string name="tool_add_point">ADD</string>
+    <string name="tool_remove_point">REM</string>
+    <string name="tool_move_point">MOVE</string>
+    <string name="tool_delete_prov">DEL</string>
+    <string name="tool_set_order">ORD</string>
+    <string name="tool_toggle_neighbor">NEI</string>
+    <string name="tool_sea_off">SEA</string>
+    <string name="tool_sea_on">SEA</string>
+    <string name="tool_points_on">Points: ON</string>
+    <string name="tool_points_off">Points: OFF</string>
+    <string name="tool_fill_on">Fill: ON</string>
+    <string name="tool_fill_off">Fill: OFF</string>
+    <string name="tool_density">Density: %d%%</string>
+    <string name="tool_undo">UNDO</string>
+    <string name="tool_save">SAVE</string>
+    <string name="tool_export">EXPORT</string>
+    <string name="tool_import">IMPORT</string>
+
+    <!-- Toolbar Tooltips (GamePanel) -->
+    <string name="tool_tip_add_prov">Commit current province &amp; start new one</string>
+    <string name="tool_tip_remove_prov">Delete selected province</string>
+    <string name="tool_tip_add_point">Insert vertex into edge</string>
+    <string name="tool_tip_remove_point">Remove target vertex</string>
+    <string name="tool_tip_move_point">Move selected vertex</string>
+    <string name="tool_tip_delete_prov">Select province for deletion</string>
+    <string name="tool_tip_set_order">Set province ordering ID</string>
+    <string name="tool_tip_toggle_neighbor">Toggle neighbor connection lines</string>
+    <string name="tool_tip_sea">Sea mode: tap a province to make it sea / land</string>
+    <string name="tool_tip_toggle_points">Toggle vertex dots display</string>
+    <string name="tool_tip_toggle_fill">Toggle province color fill</string>
+    <string name="tool_tip_density">Cycle province point density: 25→50→75→100%</string>
+    <string name="tool_tip_undo">Undo last placed point/action</string>
+    <string name="tool_redo">REDO</string>
+    <string name="tool_tip_redo">Redo previously undone action</string>
+    <string name="tool_tip_save">Save province data to disk</string>
+    <string name="tool_tip_export">Export project as ZIP archive</string>
+    <string name="tool_tip_import">Import files into assets directory</string>
+
+    <!-- Loading / Status (GamePanel) -->
+    <string name="loading_map">Loading map… %d%%</string>
+    <string name="loading_failed">Map loading failed</string>
+
+    <!-- Go-To Province Dialog (GamePanel) -->
+    <string name="dialog_title_goto">Go to Province</string>
+    <string name="dialog_msg_goto">Enter province ID (0 to %d):</string>
+    <string name="toast_province_not_found">Province #%d not found!</string>
+    <string name="toast_invalid_id">Invalid ID</string>
+
+    <!-- Scan Map Issues (GamePanel) -->
+    <string name="dialog_title_scan_results">Scan Results</string>
+    <string name="toast_map_perfect">✅ Map is perfect! No errors found.</string>
+
+    <!-- Toast Messages (GamePanel) -->
+    <string name="toast_new_province_ready">New province ready – tap to place points</string>
+    <string name="toast_no_province_selected">No province selected to delete</string>
+    <string name="toast_province_deleted">Province deleted</string>
+    <string name="toast_selected_province">Selected province #%d</string>
+    <string name="toast_saved">Saved</string>
+    <string name="toast_save_failed">Save failed: %s</string>
+    <string name="toast_import_not_available">Import not available</string>
+    <string name="toast_imported">Imported %d file(s)</string>
+    <string name="toast_imported_with_fails">Imported %d, failed %d</string>
+
+    <!-- Export Dialog (GamePanel) -->
+    <string name="dialog_title_export">Export editor_data</string>
+    <string name="dialog_title_exporting">Exporting Map…</string>
+    <string name="toast_export_error">Export error: %s</string>
+    <string name="toast_export_saved">Map exported successfully</string>
+
+    <!-- Continent Toast (EditorState) -->
+    <string name="toast_continent_selected">Selected continent ID: %d</string>
+
+    <!-- Snap Toasts (SnapGrid) -->
+    <string name="toast_snap_grid_on">Snap to grid: ON (%dpx)</string>
+    <string name="toast_snap_grid_off">Snap to grid: OFF</string>
+    <string name="toast_snap_points_on">Snap to points: ON (%dpx)</string>
+    <string name="toast_snap_points_off">Snap to points: OFF</string>
+
+    <!-- Undo/Redo Toasts (UndoRedoManager) -->
+    <string name="toast_no_undo">No actions to undo</string>
+    <string name="toast_no_redo">No actions to redo</string>
+
+    <!-- Mode Badges (MapRendered) -->
+    <string name="mode_move_point">MOVE POINT</string>
+    <string name="mode_change_point">CHANGE POINT</string>
+    <string name="mode_delete_province">DELETE PROVINCE</string>
+    <string name="mode_add_point">ADD POINT</string>
+    <string name="mode_remove_point">REMOVE POINT</string>
+    <string name="mode_order">ORDER</string>
+    <string name="mode_pan_tap">PAN / TAP</string>
+
+    <!-- Coordinate / Debug Info -->
+    <string name="debug_coords">X: %d  Y: %d</string>
+    <string name="debug_zoom">Zoom: %.2fx</string>
+    <string name="debug_fps">FPS %.0f</string>
+    <string name="debug_province_count">P %d</string>
+
+    <!-- Scan Results Items -->
+    <string name="scan_invalid_points">&lt; 3 points: ID %s</string>
+    <string name="scan_no_neighbors">No neighbors: ID %s</string>
+    <string name="scan_self_intersect">Self-intersect: ID %s</string>
+
+    <!-- Show Province IDs -->
+    <string name="tool_show_ids_on">ID: ON</string>
+    <string name="tool_show_ids_off">ID: OFF</string>
+    <string name="tool_tip_show_ids">Toggle province ID display</string>
+
+    <!-- Language Switcher -->
+    <string name="btn_language">🌐 EN / UA / RU</string>
+    <string name="dialog_title_language">Select Language</string>
+    <string name="lang_en">English</string>
+    <string name="lang_uk">Українська</string>
+    <string name="lang_ru">Русский</string>
+
+    <!-- TXT import background image -->
+    <string name="dialog_title_select_background">Select Background Image</string>
+    <string name="dialog_msg_select_background">Choose a background image (bg.png) for this TXT map?</string>
+    <string name="btn_choose_bg">Choose image</string>
+    <string name="btn_skip_bg">Use default</string>
+
+    <!-- Save progress + scales -->
+    <string name="save_progress_title">Saving map</string>
+    <string name="save_progress_provinces">Saving provinces…</string>
+    <string name="save_progress_scales">Generating scale %1$dx…</string>
+    <string name="toast_saved_scales_failed">Saved, but scales were not created: %1$s</string>
+    <string name="toast_scales_no_memory">Not enough memory for the scale masks</string>
+
+    <!-- Overlap trimming -->
+    <string name="toast_trimmed">Overlap with existing provinces cut away</string>
+    <string name="toast_trimmed_parts">Overlap cut away. Provinces created: %1$d</string>
+    <string name="toast_trim_inside">The new province lies entirely inside existing ones. Change its outline.</string>
+    <string name="toast_trim_hole">The new province would surround another one. Draw it in parts.</string>
+    <string name="toast_trim_failed">Could not cut the overlap automatically; province added as drawn</string>
+    <string name="tool_split">CUT</string>
+    <string name="tool_tip_split">Cut a province in two: tap points of the cut line, press again to cut</string>
+    <string name="mode_split">CUT LINE</string>
+    <string name="toast_split_hint">Tap points of the cut line (it may start and end outside the province, or inside - then it is extended to the border). Press CUT again to cut, Undo removes the last point.</string>
+    <string name="toast_split_done">Province %1$d cut in two; the new part is province %2$d</string>
+    <string name="toast_split_none">The line does not cross any province</string>
+    <string name="toast_split_multi">The line crosses the province more than once - it would give 3+ parts. Use a line that crosses it once</string>
+    <string name="toast_split_touch">The cut line touches the border in the middle of the province. Move its points</string>
+    <string name="toast_split_self">The cut line crosses itself inside the province</string>
+    <string name="toast_split_bad">Could not cut here (one part would be too small or broken). Move the line</string>
+</resources>

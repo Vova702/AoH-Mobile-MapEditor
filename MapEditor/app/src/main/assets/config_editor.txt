@@ -1,0 +1,7 @@
+IMAGE_PATH=editor_data/bg.png
+MAP_DATA_PATH=editor_data/Provinces/mapAoC2_v2.txt
+WIDTH=1920
+HEIGHT=1080
+MAXIMUM_SIZE=true
+DRAW_POINTS=true
+DRAW_ARMY=false
